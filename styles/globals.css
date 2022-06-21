@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "playfair";
+  src: url("../public/Playfair_Display/PlayfairDisplay.ttf");
+}
+
+.title {
+  font-family: "playfair"
+}

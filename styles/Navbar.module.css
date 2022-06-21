@@ -1,0 +1,13 @@
+.navbarText {
+    color: #2F7AE5;
+}
+
+.navbarLink {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbarLinkContainer {
+    float: right;
+    text-align: right;
+}
