@@ -1,3 +1,10 @@
+:root {
+  --test-color: red;
+  --small-screen-size: 690px;
+  --padding-from-left-main: 1.8rem;
+  --padding-from-right-main: 1.8rem;
+}
+
 html,
 body {
   padding: 0;
@@ -18,8 +25,4 @@ a {
 @font-face {
   font-family: "playfair";
   src: url("../public/Playfair_Display/PlayfairDisplay.ttf");
-}
-
-.title {
-  font-family: "playfair"
 }
