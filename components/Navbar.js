@@ -8,6 +8,7 @@ export default function Navbar() {
     const [navToggle, setNavToggle] = useState(false);
     const [screenSize, setScreensize] = useState(0);
 
+    // Monitor the size of the screen. Turn navbar toggle off when screen size is big enough
     useEffect(() => {
         const onResize = () => {
             setScreensize(window.innerWidth);

@@ -19,10 +19,26 @@ export default function Home() {
         <br></br>
 
         {/* this is distinguished from the background, which should have full width */}
-        <div className={styles.homePageMainContainer}> 
-          This is the work in progress of the JSee Solutions Website. Coming Soon!
+        
+
+      </div>
+
+
+      <img className={styles.fitImage} src="/peopleworking1.jpg"></img>
+      
+      <div className={styles.homePageMainContainer}> 
+        <div>
+          <div className={styles.mainHomeImageText}>Homepage Title</div>
         </div>
 
+        <div className={styles.imageTextItemContainer}>
+          <img className={styles.smallImage} src="/peopleworking1.jpg"></img>
+          <div className={styles.smallTextContainer}>
+            <div className={styles.smallImageTextTitle}> Real Impact, Satisfactory Service </div>
+            <div className={styles.smallImageText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus interdum luctus. Mauris a tempus nisi.
+              Quisque posuere ornare tempus. Aliquam rhoncus dapibus justo. Donec commodo pulvinar risus. </div>
+          </div>
+        </div>
       </div>
     </div>
 
